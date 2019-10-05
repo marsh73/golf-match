@@ -1,0 +1,16 @@
+{
+  "name": "golfMatch",
+  "version": "1.0.0",
+  "description": "Simple App for picking Teams",
+  "main": "index.js",
+  "author": "Justin Marshall",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.7.1",
+    "nodemon": "^1.19.3"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  }
+}
