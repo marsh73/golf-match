@@ -1,7 +1,7 @@
 'use strict';
 
-
-var mongoose = require('mongoose');
+require('dotenv').config();
+const request = require("request");
 
 function shuffle(array) {
   array.sort(() => Math.random() - 0.5);
